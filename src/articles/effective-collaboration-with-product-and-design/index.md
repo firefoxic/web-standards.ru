@@ -45,25 +45,25 @@ preview: ''
 
 Я считаю, что в значительной   степени мы оказались способны с этим справиться благодаря *сплоченному   сотрудничеству*, которое было у нас между продуктовой/дизайнерской и инженерной командами.
 
-## Three levers
+## Три рычага
 
-A product manager once told me that he had *three levers* he could pull on, in order to alleviate pressure when work is behind schedule:
+Продуктовый менеджер однажды сказал мне, что у него есть *три рычага*, с помощью которых он может улучшить положение, когда работа выполняется с отставанием от графика:
 
-- **People.** If a developer is overwhelmed with the amount of work they have to do, adding additional developers can help.
-- **Time.** If the work is behind schedule, we can push the deadline back!
-- **Scope.** If we can trim out some of the nice-to-haves, we can reduce the amount of work that needs to be done, while still delivering the critical experience, and solving for the original objective.
+- **Люди.** Если разработчики перегружены объемом работы, которую им необходимо сделать, то добавление дополнительных разработчиков может помочь.
+- **Время.** Если работа отстает от графика, мы можем перенести дедлайн!
+- **Объем работы.** Если мы вырежем из продукта некоторые вещи, которые не критично, но лишь неплохо было бы иметь в нем, то мы можем сократить объем работы, которую нужно сделать, все еще сохраняя критически важные вещи и решая изначальные задачи.
 
-The first option, adding people, feels precarious to me. It can backfire; adding people doesn't always mean the work will get done faster. New developers need to gather a bunch of context, and sometimes that context exists only within the current developers' heads. Instead of speeding things up, it can slow things down.
+Первая опция, добавление людей, кажется мне ненадежной. Она может возыметь обратный эффект:   подключение дополнительных сотрудников не всегда означает, что работа будет выполнена быстрее. Новым разработчикам нужно собрать определенный объем информации о данном проекте, и иногда такая информация есть только в головах текущих разработчиков. Вместо ускорения процесса, это может замедлить   его.
 
-The second option, time, might not be an option at all, especially if there are external, immovable deadlines. IMO this is an *underutilized lever* in our industry, but yeah sometimes you really can't push back a deadline.
+Второй вариант, время, может вообще не быть возможным, особенно, если есть внешние, несдвигаемые дедлайны. По моему мнению это *недостаточно используемый* рычаг в нашей индустрии, но да, иногда ты на самом деле не можешь перенести срок сдачи проекта.
 
-That leaves the third option, scope.
+Это оставляет нам третью опцию, объем работы.
 
-Scope cuts are generally decided by product managers, but they don't make that decision alone. It often starts with a conversation between the designer and the developer. If these two people trust each other, the process is collaborative, cordial, and productive. They figure out the best solution under the current constraints, taking development time and user experience into account, and then pitch it to the PM. If the PM trusts the designer and developer, and their proposed solution works from a product perspective, it's typically approved without any fuss.
+Уменьшение объема работы обычно остается на усмотрение продуктовых менеджеров, но они не принимают такое решение в одиночку. Зачастую все начинается с обсуждения между дизайнером и разработчиком. Если эти два человека доверяют друг другу, то процесс сотрудничества получается сплоченным, теплым и продуктивным. Они находят наилучшее решение в рамках данных ограничений, принимая во внимание время на разработку и особенности пользовательского взаимодействия, и затем предлагают его продуктовому менеджеру. Если продуктовый менеджер доверяет дизайнеру и разработчику, и предложенное ими решение является рабочим с продуктовой точки зрения, то обычно оно принимается без возражений.
 
-This workflow is awesome, and I believe it was critical in our success in the *Rainbow Road* project: if we weren't able to course-correct with so little friction, there's no way we would have been able to ship in time.
+Такая организация трудового процесса шикарна, и я считаю, что она была критически важной частью нашего   успеха в проекте *Радужный путь*: если бы мы не были способны корректировать курс со столь малыми разногласиями, то мы никоим образом не смогли бы завершить его вовремя.
 
-This workflow only works if all parties trust each other, though.
+Однако такой производственный процесс работает только если все стороны доверяют друг другу.
 
 ## It starts with empathy
 
