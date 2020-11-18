@@ -31,23 +31,19 @@ preview: ''
 
 Большая часть работы, которую   мы выполняем, особенно во фронтенде, тесно связана с продуктом и дизайном. Весьма вероятно, что вы проводите значительную часть своего времени трудясь над претворением в жизнь концепции, с точки зрения, предоставленной другими членами команды. Коммуникация и доверие играют огромную роль в том, насколько эффективно мы работаем вместе, и они могут стать причиной *значительной разницы* в нашей производительности.
 
-## Rainbow Road
+## Радужный путь
 
-I used to work for [Khan Academy](https://khanacademy.org), a non-profit organization on a mission to provide a free, world-class education to anyone, anywhere. I worked on the classroom team, building tools to be used by teachers and their students.
+Когда-то я работал на [Khan Academy](https://khanacademy.org), некоммерческую организацию с миссией предоставлять бесплатное образование мирового уровня кому угодно и где угодно. Я работал в команде учебного класса, создавая инструменты, которыми должны были пользоваться учителя и их ученики.
 
-We discovered pretty quickly that teachers really dislike having product updates shipped mid-semester; it disrupts their workflow, and eats up extremely limited time. A teacher might only have 5 minutes before a class starts to check in on how their students are doing. Product releases disrupt that.
+Довольно быстро мы обнаружили, что учителям очень не нравится получать обновления продукта в середине   семестра: это нарушало течение их рабочего процесса, и отнимало и без того очень ограниченное время. У учителя могло быть только 5 минут до начала урока, чтобы проверить состояние дел у своих учеников. Выпуск продукта нарушал этот процесс.
 
-For this and many other reasons, Khan Academy structured most of their
-releases around the “back-to-school” calendar: we aimed to have new stuff
-launched by July/August, in time for the new school year (in the northern
-hemisphere). Especially on the classroom team, we couldn't ship new features
-after school started, so we had very firm deadlines.
+По этим и многим другим причинам, Khan Academy выстроили структуру большинства своих релизов вокруг учебного календаря: мы нацеливались на запуск новых продуктов в Июле/Августе, чтобы успеть к новому   школьному году (в северном полушарии). Особенно в команде учебного класса мы не могли запустить новые функциональные возможности после начала учебы, поэтому у нас были очень жестко установленные сроки разработки.
 
-In 2018, our squad worked on a project code-named *rainbow road*, centered around revamping the tools teachers use outside of class to understand what their students' needs are. Our plan was super aggressive: we were revamping 5 key product areas, and launching a bunch of new functionality. For a while, it was very uncertain whether we would actually finish in time!
+В 2018 наша группа работала на проекте с кодовыми названием *радужный путь*, сосредоточенном на реконструкции инструментов, которыми учителя пользуются вне класса для того, чтобы понять в чем нуждаются их ученики. Наш план был супер агрессивным: мы проводили обновление в 5 ключевых продуктовых областях, и запускали множество новых функций. Какое-то время было даже непонятно успеем ли мы закончить всё вовремя!
 
-In the end, we met all of our core commitments! Like in many real-world projects, there was a bit of creative scope-cutting needed, but we delivered a working product in time for back-to-school, and teachers (and their students!) really benefitted from the work we did.
+В конце концов мы выполнили все наши ключевые обязательства! Как и во многих реальных проектах,   потребовалось немного креативного сокращения размаха деятельности, но мы предоставили рабочий продукт вовремя к учебному году, и учителя (и их ученики!) действительно получили пользу от работы, которую мы выполнили.
 
-I believe a huge part of how we were able to pull it off was the *tight collaboration* we had between product/design and engineering.
+Я считаю, что в значительной   степени мы оказались способны с этим справиться благодаря *сплоченному   сотрудничеству*, которое было у нас между продуктовой/дизайнерской и инженерной командами.
 
 ## Three levers
 
