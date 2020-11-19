@@ -27,7 +27,7 @@ preview: ''
 
 Предметная область, на которой мы обычно фокусируемся хорошо обработана и в ней осталось не так много «низко висящих фруктов» (здесь автор статьи использует английское выражение, означающее что-то, чего легко достичь, получить, чем легко воспользоваться – прим. переводчика). Но есть много других сфер, в которых мы можем улучшить наши умения!
 
-Большая часть работы, которую мы выполняем, особенно во фронтенде, тесно связана с продуктом и дизайном. Весьма вероятно, что вы проводите значительную часть своего времени трудясь над претворением в жизнь концепции, с точки зрения, предоставленной другими членами команды. Коммуникация и доверие играют огромную роль в том, насколько эффективно мы работаем вместе, и они могут стать причиной *значительной разницы* в нашей производительности.
+Большая часть работы, которую мы выполняем, особенно во фронтенде, тесно связана с продуктом и дизайном. Весьма вероятно, что вы проводите значительную часть своего времени трудясь над претворением в жизнь концепции, с точки зрения, предоставленной другими членами команды. Коммуникация и доверие играют огромную роль в том, насколько эффективно мы работаем вместе, и они могут стать причиной _значительной разницы_ в нашей производительности.
 
 ## Радужный путь
 
@@ -35,17 +35,17 @@ preview: ''
 
 Довольно быстро мы обнаружили, что учителям очень не нравится получать обновления продукта в середине семестра: это нарушало течение их рабочего процесса, и отнимало и без того очень ограниченное время. У учителя могло быть только 5 минут до начала урока, чтобы проверить состояние дел у своих учеников. Выпуск продукта нарушал этот процесс.
 
-По этим и многим другим причинам, Khan Academy выстроили структуру большинства своих релизов вокруг учебного календаря: мы нацеливались на запуск новых продуктов в Июле/Августе, чтобы успеть к новому школьному году (в северном полушарии). Особенно в команде учебного класса мы не могли запустить новые функциональные возможности после начала учебы, поэтому у нас были очень жестко установленные сроки разработки.
+По этим и многим другим причинам, Khan Academy выстроили структуру большинства своих релизов вокруг учебного календаря: мы нацеливались на запуск новых продуктов в июле-августе, чтобы успеть к новому школьному году (в северном полушарии). Особенно в команде учебного класса мы не могли запустить новые функциональные возможности после начала учебы, поэтому у нас были очень жестко установленные сроки разработки.
 
-В 2018 наша группа работала на проекте с кодовыми названием *радужный путь*, сосредоточенном на реконструкции инструментов, которыми учителя пользуются вне класса для того, чтобы понять в чем нуждаются их ученики. Наш план был супер агрессивным: мы проводили обновление в 5 ключевых продуктовых областях, и запускали множество новых функций. Какое-то время было даже непонятно успеем ли мы закончить всё вовремя!
+В 2018 наша группа работала на проекте с кодовыми названием _радужный путь,_ сосредоточенном на реконструкции инструментов, которыми учителя пользуются вне класса для того, чтобы понять в чем нуждаются их ученики. Наш план был супер агрессивным: мы проводили обновление в 5 ключевых продуктовых областях, и запускали множество новых функций. Какое-то время было даже непонятно успеем ли мы закончить всё вовремя!
 
 В конце концов мы выполнили все наши ключевые обязательства! Как и во многих реальных проектах, потребовалось немного креативного сокращения размаха деятельности, но мы предоставили рабочий продукт вовремя к учебному году, и учителя (и их ученики!) действительно получили пользу от работы, которую мы выполнили.
 
-Я считаю, что в значительной степени мы оказались способны с этим справиться благодаря *сплоченному сотрудничеству*, которое было у нас между продуктовой/дизайнерской и инженерной командами.
+Я считаю, что в значительной степени мы оказались способны с этим справиться благодаря _сплоченному сотрудничеству,_ которое было у нас между продуктовой-дизайнерской и инженерной командами.
 
 ## Три рычага
 
-Продуктовый менеджер однажды сказал мне, что у него есть *три рычага*, с помощью которых он может улучшить положение, когда работа выполняется с отставанием от графика:
+Продуктовый менеджер однажды сказал мне, что у него есть _три рычага_, с помощью которых он может улучшить положение, когда работа выполняется с отставанием от графика:
 
 - **Люди.** Если разработчики перегружены объемом работы, которую им необходимо сделать, то добавление дополнительных разработчиков может помочь.
 - **Время.** Если работа отстает от графика, мы можем перенести дедлайн!
@@ -53,13 +53,13 @@ preview: ''
 
 Первая опция, добавление людей, кажется мне ненадежной. Она может возыметь обратный эффект: подключение дополнительных сотрудников не всегда означает, что работа будет выполнена быстрее. Новым разработчикам нужно собрать определенный объем информации о данном проекте, и иногда такая информация есть только в головах текущих разработчиков. Вместо ускорения процесса, это может замедлить его.
 
-Второй вариант, время, может вообще не быть возможным, особенно, если есть внешние, несдвигаемые дедлайны. По моему мнению это *недостаточно используемый* рычаг в нашей индустрии, но да, иногда ты на самом деле не можешь перенести срок сдачи проекта.
+Второй вариант, время, может вообще не быть возможным, особенно, если есть внешние, несдвигаемые дедлайны. По моему мнению это _недостаточно используемый_ рычаг в нашей индустрии, но да, иногда ты на самом деле не можешь перенести срок сдачи проекта.
 
 Это оставляет нам третью опцию, объем работы.
 
 Уменьшение объема работы обычно остается на усмотрение продуктовых менеджеров, но они не принимают такое решение в одиночку. Зачастую все начинается с обсуждения между дизайнером и разработчиком. Если эти два человека доверяют друг другу, то процесс сотрудничества получается сплоченным, теплым и продуктивным. Они находят наилучшее решение в рамках данных ограничений, принимая во внимание время на разработку и особенности пользовательского взаимодействия, и затем предлагают его продуктовому менеджеру. Если продуктовый менеджер доверяет дизайнеру и разработчику, и предложенное ими решение является рабочим с продуктовой точки зрения, то обычно оно принимается без возражений.
 
-Такая организация трудового процесса шикарна, и я считаю, что она была критически важной частью нашего успеха в проекте *Радужный путь*: если бы мы не были способны корректировать курс со столь малыми разногласиями, то мы никоим образом не смогли бы завершить его вовремя.
+Такая организация трудового процесса шикарна, и я считаю, что она была критически важной частью нашего успеха в проекте _Радужный путь:_ если бы мы не были способны корректировать курс со столь малыми разногласиями, то мы никоим образом не смогли бы завершить его вовремя.
 
 Однако такой производственный процесс работает только если все стороны доверяют друг другу.
 
@@ -101,11 +101,11 @@ First, we should figure out how much time we think it would take to fix these is
 - Title should be `gray-900` color, not `gray-700`
 - Text should show an ellipsis (…) if it's too long to fit on 3 lines.
 
-The first 4 tweaks sound relatively trivial to me<!-- Tooltip: Presuming that these changes are permitted within the constraints of the design system + component library -->. I think it would take me about 5 minutes to fix them, maybe 30 minutes total
+The first 4 tweaks sound relatively trivial to me (presuming that these changes are permitted within the constraints of the design system + component library). I think it would take me about 5 minutes to fix them, maybe 30 minutes total
 when factoring in all the process stuff (updating snapshot tests, code review,
 etc).
 
-The fifth one is tricky, though. If you've ever tried to deal with multi-line ellipsis on the web, you know that it's a dastardly problem with no simple CSS solution<!-- Tooltip: So it turns out, there *is* a way to do this now, with -webkit-line-clamp. It's a little buggy, though, so it's not quite a silver bullet.<br><br>For the purposes of this article, I'm pretending it doesn't exist. -->. You could easily spend an afternoon trying to get it sorted, and the solution would probably be janky.
+The fifth one is tricky, though. If you've ever tried to deal with multi-line ellipsis on the web, you know that it's a dastardly problem with no simple CSS solution. (So it turns out, there _is_ a way to do this now, with <code>-webkit-line-clamp</code>. It's a little buggy, though, so it's not quite a silver bullet. For the purposes of this article, I'm pretending it doesn't exist). You could easily spend an afternoon trying to get it sorted, and the solution would probably be janky.
 
 In most cases, here's what I would do:
 
@@ -131,7 +131,7 @@ The message I send might look something like this:
 
 The key thing here is that it shows I am taking their concerns seriously.
 
-Another thing: designers usually aren't familiar enough with the web platform to be able to tell what's easy and what's hard (and they shouldn't need to be, since this is *our* job, not theirs). Multi-line ellipsis sounds like it should be easy, but we're saying it isn't. In effect, we're asking them to trust us.
+Another thing: designers usually aren't familiar enough with the web platform to be able to tell what's easy and what's hard (and they shouldn't need to be, since this is _our_ job, not theirs). Multi-line ellipsis sounds like it should be easy, but we're saying it isn't. In effect, we're asking them to trust us.
 
 Imagine if I had said something like this:
 
@@ -157,7 +157,7 @@ You shouldn't let that stop you from starting a conversation. I would say someth
 
 The person who designed the mockup has spent a lot of time thinking about that screen, and they likely already have multiple alternative ideas. They might not even think the element in question is that important, and maybe you can omit it altogether.
 
-What you *don't* want to do is assume that everything on the design is written in stone. You might spend a week implementing a multi-line ellipsis only to learn that the work was totally unnecessary!
+What you _don't_ want to do is assume that everything on the design is written in stone. You might spend a week implementing a multi-line ellipsis only to learn that the work was totally unnecessary!
 
 ## Covert operations
 
@@ -179,16 +179,15 @@ It's worth pointing out that as a cis white guy, I am privileged enough that I c
 
 ## “Should designers code?”
 
-Every few months, this question is asked on Design Twitter, and everyone jumps in with hot takes. I am not a designer, and am woefully out of my depth when it comes to answering this question, but I do have one strong opinion: if designers *want* to code, we should do whatever we can to enable them.
+Every few months, this question is asked on Design Twitter, and everyone jumps in with hot takes. I am not a designer, and am woefully out of my depth when it comes to answering this question, but I do have one strong opinion: if designers _want_ to code, we should do whatever we can to enable them.
 
 I've worked on teams where designers knew CSS, and wanted to be able to make small tweaks, stuff like adjusting font sizes and positions. Sometimes, developers are hesitant—there's a concern that it will eat up a bunch of their time. Especially if the codebase is complex and has a lot of quirks (which is very nearly every codebase?), the concern goes like this: “It would take me longer to teach you how to fix it than it would for me to just fix it myself”.
 
-The problem is that we often say this *while ignoring* a pile of tickets that designers have opened. We can't have it both ways; either we agree to promptly address any design feedback we receive, *or* we find a way to empower designers to make those changes themselves (if they want to). While it might take a bit more developer time upfront, it's an investment in the future.
+The problem is that we often say this _while ignoring_ a pile of tickets that designers have opened. We can't have it both ways; either we agree to promptly address any design feedback we receive, _or_ we find a way to empower designers to make those changes themselves (if they want to). While it might take a bit more developer time upfront, it's an investment in the future.
 
-It's a bit of a sad statement that designers are sometimes willing to learn an *entirely different trade* because they see it as the easiest way to make sure that their designs are correctly implemented 😬
+It's a bit of a sad statement that designers are sometimes willing to learn an _entirely different trade_ because they see it as the easiest way to make sure that their designs are correctly implemented 😬
 
-Also, we shouldn't underestimate designers' ability to make sense of our code. Yes, coding is hard, but it's not as mystical as we like to believe.
-<!-- Tooltip: On a flight, I once sat next to someone who figured that software developers were "like in The Matrix", working with 0s and 1s. She was very underwhelmed when I showed her what our job *actually* looked like. -->
+Also, we shouldn't underestimate designers' ability to make sense of our code. Yes, coding is hard, but it's not as mystical as we like to believe. (On a flight, I once sat next to someone who figured that software developers were "like in The Matrix", working with 0s and 1s. She was very underwhelmed when I showed her what our job _actually_ looked like).
 
 ## Deeper collaboration during development
 
@@ -204,7 +203,7 @@ Many developers work in isolation, and they keep the feature pretty close to the
 
 - The developer might have missed the fact that there was an on-enter animation specified, and that animation totally isn't possible because of how they structured their code
 - The designer might suddenly realize, seeing it populated with real data, that a bunch of their original assumptions were wrong, and that this all needs to be rethought.
-- The developer might have misunderstood how the views should scale *between* the specified screen sizes.
+- The developer might have misunderstood how the views should scale _between_ the specified screen sizes.
 - The designer might not have known that there would be a 3-second loading spinner before the main view loaded. After discussion, the designer learns that the slowest piece of data is the least important. A new design is produced, removing the slow piece of data, and rearranging everything else to make it work.
 - A million other things like this.
 
@@ -212,15 +211,15 @@ In all of these scenarios, how much time could have been saved by having a desig
 
 I try hard to give designers access to my work early and often. I'll send GIFs of critical flows and behaviours the second I have a working prototype on my machine. When possible, I'll deploy to staging, so that designers can try things hands-on.
 
-A static mockup can never perfectly capture the essence of using a product, and designers sometimes need to see how it *feels* before they have conidence in their approach. The sooner we can get a prototype in the designer's hands, the earlier we'll know if there's a problem, and the less work we'll have to do.
+A static mockup can never perfectly capture the essence of using a product, and designers sometimes need to see how it _feels_ before they have conidence in their approach. The sooner we can get a prototype in the designer's hands, the earlier we'll know if there's a problem, and the less work we'll have to do.
 
 ## Develop a design intuition
 
 There's a pervasive myth that design and development are polar opposites, and that they're mutually exclusive skills. Design is seen as creative and artistic and abstract, whereas development is seen as logical and rational and concrete.
 
-I think that's all wrong. Design, like music and everything else, has rules and constraints. Given certain inputs, you'll produce certain outputs. Sure, there's a human element of infusing those rules with creativity and personality, but the same thing can be said for development! If programming was as rational and concrete as people say, we wouldn't waste so much time trying to convince everyone else that *our* way of doing things is the best way.
+I think that's all wrong. Design, like music and everything else, has rules and constraints. Given certain inputs, you'll produce certain outputs. Sure, there's a human element of infusing those rules with creativity and personality, but the same thing can be said for development! If programming was as rational and concrete as people say, we wouldn't waste so much time trying to convince everyone else that _our_ way of doing things is the best way.
 
-Also, I submit Exhibit B: *creative coding*:
+Also, I submit Exhibit B: _creative coding:_
 
 > **Content warning:** The video-GIFs include motion that may be harmful for folks with vestibular disorders.
 
@@ -279,12 +278,11 @@ That last one is interesting, and worth digging into a little bit.
 
 Whether you realize it or not, you're constantly making design decisions and relying on your intuition. Mockups never specify what should happen in 100% of cases, and in the process of implementing them, we'll find dozens or hundreds of little things not explicitly specified in the mockup.
 
-I've been honing my design intuition for years, and I believe I have a pretty good instinct for most things now. It's been a fantastic investment. I can use my judgment for most things that come along. I still reach out with questions, but my questions tend to be higher-level now, more around structure and flow rather than pixel positions.
-<!-- Tooltip: Although let's be real — I still get this staff wrong sometimes too -->
+I've been honing my design intuition for years, and I believe I have a pretty good instinct for most things now. It's been a fantastic investment. I can use my judgment for most things that come along. I still reach out with questions, but my questions tend to be higher-level now, more around structure and flow rather than pixel positions. Although let's be real — I still get this staff wrong sometimes too.
 
 In order to start developing your design instinct, I have a couple tips:
 
-- If your organization has a design system, spend some time learning *why* things are the way they are. For example, you might have a `<Button>` component with different types: `primary`,`secondary`,`tertiary`. Design systems will often be very explicit about which type should be used when.
+- If your organization has a design system, spend some time learning _why_ things are the way they are. For example, you might have a `<Button>` component with different types: `primary`,`secondary`,`tertiary`. Design systems will often be very explicit about which type should be used when.
 - Speak with your designers! Try and learn more about why they structured things the way they did. Instead of simply absorbing what they've specified, try and understand why they've specified it. You work with talented experts who are usually happy to teach interested developers!
 
 Integrating these habits into your existing workflow should offer pretty noticeable benefits without a ton of extra investment, but if you're really into this idea, here are some additional resources that could prove helpful:
@@ -298,7 +296,7 @@ Integrating these habits into your existing workflow should offer pretty noticea
 
 It's early in the new decade, and many of us have goals to improve our developer skills. Technical ability is undoubtedly important, but it's only 1 aspect to being a good developer, and we often overlook other aspects that are just as important.
 
-When folks talk about the “10x developer”, I often worry they're imagining a developer who writes code 10x faster than a normal developer (or, worse, a dev who writes 10x the amount of code 😬). What *I* imagine is a developer who provides 10x the *value* to an organization. And developers who are effective collaborators with design provide a **ton** of value.
+When folks talk about the “10x developer”, I often worry they're imagining a developer who writes code 10x faster than a normal developer (or, worse, a dev who writes 10x the amount of code 😬). What _I_ imagine is a developer who provides 10x the _value_ to an organization. And developers who are effective collaborators with design provide a **ton** of value.
 
 Pretty much every time I've been promoted in my career, my ability to collaborate with product & design was listed as one of my greatest strengths. Organizations really appreciate developers who work on this skillset, since it means features get shipped more quickly and with less stress / conflict.
 
@@ -306,7 +304,7 @@ Let's review: here are the concrete ways in which I think we can increase the va
 
 - When we're under a looming deadline, good communication is key in finding the right compromises, to help us work around hairy technical problems while still delivering a good user experience. This requires that we've put in the effort to develop trust first.
 - By making sure to keep design in the loop while we develop, we can course-correct early if our implementation starts to driff off the road.
-- By developing a design intuition, we get better at both of these tasks, and so many others. We gain the ability to *know* the answers to questions that might have blocked us previously. We can contribute more to the process, and feel a greater sense of ownership over the finished product.
+- By developing a design intuition, we get better at both of these tasks, and so many others. We gain the ability to _know_ the answers to questions that might have blocked us previously. We can contribute more to the process, and feel a greater sense of ownership over the finished product.
 
 The premise of this blog post is that a 15-minute read could save you a ton of development effort in the future—and I hope I've accomplished that goal!—but this post has a sneaky ulterior motive. I want us to start pulling our weight when it comes to design-developer collaboration. You may feel like “pixel pushing” is a tedious drag, that you wish you could spend all your time on business logic and code architecture and performance optimizations… But that's no excuse to half-ass it. Our design team deserves partners who take implementation as seriously as they do.
 
