@@ -63,19 +63,19 @@ preview: ''
 
 Однако такой производственный процесс работает только если все стороны доверяют друг другу.
 
-## It starts with empathy
+## Все начинается с эмпатии
 
-So here's a fun exercise. Imagine you're at a party, and someone asks what you do. You mention that you're a developer for Company X. The person pulls out their phone and navigates to Company X's homepage, which is a page you built.
+Вот вам веселое упражнение. Представьте, что вы на вечеринке и некто спрашивает чем вы занимаетесь. Вы упоминаете, что трудитесь разработчиком в Компании Икс. Собеседник достает свой телефон и заходит на созданную вами домашнюю страницу Компании Икс.
 
-For many devs, there's a certain amount of pride with this kind of thing. The code that you wrote is running on this person's phone! Even though many other people worked very hard on it, you were the one who translated those efforts into a tangible, interactive thing. You were the final step in the process, and your work is on full display.
+Для многих разработчиков такой момент это повод для гордости. Код, который вы написали, работает на телефоне этого человека! Даже несмотря на то, что множество других людей хорошо потрудились для этого, вы были тем, кто перевел их усилия в реально существующую, интерактивную вещь. Вы были завершающим шагом в процессе, и ваша работа открыта на весь экран.
 
-Now imagine that you're in the same situation, except you're the UI/UX designer who worked on Company X's homepage. The mockup you designed a few months ago is noticeably different from what you're seeing on this person's phone. The fonts are all wrong, the spacing is off, there's a weird glitch on scroll. It's not really your work. Not without a lot of asterisks and caveats, at least.
+Теперь представьте себя в той же ситуации, только теперь вы UI/UX-дизайнер, который работал над домашней страницей Компании Икс. Макет, который вы нарисовали несколько месяцев назад, заметно отличается от того, что вы видите на экране телефона этого человека. Шрифты все не те, позиционирование нарушено, на скролле старнный дефект. Это не ваша работа на самом деле. По крайней мере ее можно назвать таковой только с большой натяжкой.
 
-Designers work hard to create a design that looks good and works well for the end user, but their work is funneled through an implementation process, one which invariably leaves a mark. The end result will never exactly match their design. Sometimes, it's worlds apart. And yet, their professional reputation is often all about which real-world products they've delivered, not how many beautiful mockups they've designed.
+Дизайнеры прилагают много усилий для того, чтобы создать дизайн, который будет прекрасно выглядеть и хорошо работать для конечного пользователя, но их труд проходит сито процесса внедрения, то самое, которое неизбежно оставляет свой след. Конечный результат никогда не будет точно соответствовать их дизайну. Иногда они отличаются, как небо и земля. И в то же время их профессиональная репутация зачастую целиком зиждется на продуктах, выпущенных в реальный мир, а не на том сколько красивых макетов они создали.
 
-This is a situation that can very easily lead to resentment and conflict. I've worked on teams where there was a pervasive icy tension between designers and developers. And, frankly, I think developers are to blame most of the time. It's usually our fault.
+Такая ситуация очень легко может привести к обидам и конфиликтам. Я работал в командах, в которых повсеместно была ледяная напряженность между дизайнерами и разработчиками. И, честно говоря, я думаю, что в этом чаще всего виноваты разработчики. Обычно это наша вина.
 
-It's worth recognizing that we haven't always been perfect teammates. The first step in building trust with our design and product friends is to show them that we take their concerns seriously.
+Стоит признать, что мы не всегда являемся хорошими товарищами по команде. Первый шаг для того, чтобы построить доверительные отношения с нашими друзьями из дизайнерских и продуктовых команд, состоит в том, чтобы показать им, что мы принимаем их проблемы всерьез.
 
 ## “Nits”
 
