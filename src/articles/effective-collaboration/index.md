@@ -45,7 +45,7 @@ preview: ''
 
 ## Три рычага
 
-Продуктовый менеджер однажды сказал мне, что у него есть _три рычага_, с помощью которых он может улучшить положение, когда работа выполняется с отставанием от графика:
+Продуктовый менеджер однажды сказал мне, что у него есть _три рычага,_ с помощью которых он может улучшить положение, когда работа выполняется с отставанием от графика:
 
 - **Люди.** Если разработчики перегружены объемом работы, которую им необходимо сделать, то добавление дополнительных разработчиков может помочь.
 - **Время.** Если работа отстает от графика, мы можем перенести дедлайн!
@@ -230,10 +230,7 @@ Also, I submit Exhibit B: _creative coding:_
     <p>
         Lines grow outward, and upon colliding with another line, it produces a new line at a different angle.
     </p>
-    <p>
-        <a href="https://twitter.com/hashtag/javascript">#javascript</a> <a href="https://twitter.com/hashtag/generative">#generative</a> <a href="https://twitter.com/hashtag/canvas">#canvas</a>
-    </p>
-    <video preload="none" poster="https://pbs.twimg.com/tweet_video_thumb/EM0vLUgXsAETAj1.jpg" src="https://video.twimg.com/tweet_video/EM0vLUgXsAETAj1.mp4" width="640" height="640" type="video/mp4" controls loop></video>
+    <video src="video/1.mp4" poster="video/1.png" width="800" height="800" type="video/mp4" preload="none" mute controls loop></video>
     <footer>
         <cite>
             <a href="https://twitter.com/mattdesl/status/1210675775747301381">@mattdesl</a>
@@ -245,7 +242,7 @@ Also, I submit Exhibit B: _creative coding:_
     <p>
         :)
     </p>
-    <video preload="none" poster="https://pbs.twimg.com/tweet_video_thumb/EJzili8UcAAD663.jpg" src="https://video.twimg.com/tweet_video/EJzili8UcAAD663.mp4" width="720" height="800" type="video/mp4" controls loop></video>
+    <video src="video/2.mp4" poster="video/2.png" width="800" height="720" type="video/mp4" preload="none" mute controls loop></video>
     <footer>
         <cite>
             <a href="https://twitter.com/beesandbombs/status/1197081207894183936">@beesandbombs</a>
@@ -257,10 +254,7 @@ Also, I submit Exhibit B: _creative coding:_
     <p>
         Perlin noise overprints
     </p>
-    <p>
-        <a href="https://twitter.com/hashtag/moiré">#moiré</a> <a href="https://twitter.com/hashtag/plottertwitter">#plottertwitter</a>
-    </p>
-    <img alt="" src="https://pbs.twimg.com/media/ENMmZYVU4AEXlsD?format=jpg" width="900" height="1200">
+    <img src="images/1.jpg" width="800" height="800" alt="">
     <footer>
         <cite>
             <a href="https://twitter.com/netpraxis/status/1212354990963970048">@netpraxis</a>
