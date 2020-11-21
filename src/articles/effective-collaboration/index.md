@@ -6,7 +6,7 @@ source:
     title: 'Effective collaboration with product and design'
     url: 'https://joshwcomeau.com/career/effective-collaboration'
 translators:
-    -
+    - timur-syrlybayev
 editors:
     - vadim-makeev
 layout: article.njk
