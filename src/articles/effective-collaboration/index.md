@@ -1,9 +1,9 @@
 ---
-title: ''
+title: 'Эффективное взаимодействие c продуктовой и дизайнерской командами'
 date: 2020-01-21
 author: josh-comeau
 source:
-    title: 'Эффективное взаимодействие c продуктовой и дизайнерской командами'
+    title: 'Effective collaboration with product and design'
     url: 'https://joshwcomeau.com/career/effective-collaboration'
 translators:
     -
