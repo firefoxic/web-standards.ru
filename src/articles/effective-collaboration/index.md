@@ -77,20 +77,6 @@ preview: ''
 
 Стоит признать, что мы не всегда являемся хорошими товарищами по команде. Первый шаг для того, чтобы построить доверительные отношения с нашими друзьями из дизайнерских и продуктовых команд, состоит в том, чтобы показать им, что мы принимаем их проблемы всерьез.
 
-## “Nits”
-
-Let's say we're chugging along on a non-urgent feature. We push a version of the change up to staging, and a day or two later we get some feedback from the designer:
-
-- Change avatar border radius from 4px to 8px
-- Add 8px spacing below avatar
-- Keep content center-aligned between `md` and `lg` breakpoints
-- Title should be `gray-900` color, not `gray-700`
-- Text should show an ellipsis (…) if it's too long to fit on 3 lines.
-
-We tend to describe these as “nitpicks” (which, incidentally, isn't a very kind way to describe this kind of feedback!). Generally what happens in these situations is that the developer tells the designer to create a ticket for these nits, where it'll likely be assigned a P4 and lost in a sea of other low-priority tickets.
-
-How *should* we react to this kind of feedback?
-
 ## Придирки
 
 Давайте представим, что мы спокойно работаем над чем-то не очень срочным. Мы отправляем сделанную версию на стейджинг, и день или два спустя мы получаем ответ от дизайнера:
