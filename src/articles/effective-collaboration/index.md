@@ -91,59 +91,56 @@ preview: ''
 
 Как мы _должны_ реагировать на такой тип обратной связи?
 
-### Collaborative implementation
+### Совместное внедрение
 
-First, we should figure out how much time we think it would take to fix these issues. Here's that list again:
+В первую очередь мы должны понять сколько времени на наш взгляд займет устранение этих замечаний. Взгляните на список еще раз:
 
-- Change avatar border radius from 4px to 8px
-- Add 8px spacing below avatar
-- Keep content center-aligned between `md` and `lg` breakpoints
-- Title should be `gray-900` color, not `gray-700`
-- Text should show an ellipsis (…) if it's too long to fit on 3 lines.
+- Измените округление границы аватара с 4 до 8 пикселей
+- Добавьте расстояние в 8 пикселей под аватаром
+- Позиционируйте содержимое по центру между контрольными точками `md` и `lg`
+- Заголовок должен быть цвета `gray-900`, а не `gray-700`
+- Текст должен быть представлен в виде многоточия (…), если он не умещается на 3 строках.
 
-The first 4 tweaks sound relatively trivial to me (presuming that these changes are permitted within the constraints of the design system + component library). I think it would take me about 5 minutes to fix them, maybe 30 minutes total
-when factoring in all the process stuff (updating snapshot tests, code review,
-etc).
+Первые четыре поправки звучат обыденно для меня _(если исходить из того, что такие изменения дозволены в рамках дизайнерской системы + компонентной библиотеки — прим. автора)._ Я думаю у меня бы заняло около 5 минут, чтобы исправить их, возможно 30 минут на все, если учитывать все сопутствующие вещи (обновление тестов со снимками, код-ревью и т.д.).
 
-The fifth one is tricky, though. If you've ever tried to deal with multi-line ellipsis on the web, you know that it's a dastardly problem with no simple CSS solution. (So it turns out, there _is_ a way to do this now, with <code>-webkit-line-clamp</code>. It's a little buggy, though, so it's not quite a silver bullet. For the purposes of this article, I'm pretending it doesn't exist). You could easily spend an afternoon trying to get it sorted, and the solution would probably be janky.
+А вот с пятой правкой не всё так просто. Если вы когда-либо имели дело с многоточием для нескольких строк в верстке, вы знаете, что это подлая проблема не имеющая простого решения с помощью CSS. _(Оказалось, что сейчас уже **есть** способ добиться этого с помощью `-webkit-line-clamp`. Тем не менее он работает с ошибками, так что это не идеальное решение. Для целей данной статьи я сделаю вид, что такого способа не существует — прим. автора)._ Вы легко можете провести половину дня пытаясь решить эту проблему, и решение вполне вероятно будет сомнительным.
 
-In most cases, here's what I would do:
+Вот как бы я поступил в большинстве таких случаев:
+- Решил первые 4 проблемы
+- Провел исследование и мозговой штурм на тему того, как я могу ответить на оставшиеся вопросы, полученные от дизайнера, без необходимости тратить много часов или дней рабочего времени
+- Связался с дизайнером, чтобы получить обратную связь.
 
-- Solve the first 4 problems
-- Research and brainstorm about how I might address the designer's concern without needing to invest many hours or days of development time
-- DM the designer to get feedback.
+Сообщение от меня могло бы выглядеть например так:
 
-The message I send might look something like this:
-
-> Hi [designer friend],
+> Привет [друг дизайнер],
 >
-> Thanks for the feedback for [project name]!
+> Спасибо за ответ по [название проекта]!
 >
-> I've tackled most of the issues you spotted, and they should be pushed to staging in [reasonable timeframe], but one issue is surprisingly tricky: browsers don't provide a good built-in way to handle showing an ellipsis for multi-line text. There are third-party solutions, but they tend to be finicky and unreliable.
+> Я исправил большинство проблем, на которые ты указал, и они будут отправлены на рассмотрение в [разумные временные рамки], но один вопрос неожиданно оказался весьма каверзным: браузеры не предоставляют хорошее встроенное решение для управления отображением многоточия в тексте на несколько строк. Есть сторонние решения, но они причудливые и ненадежные.
 >
-> I had a couple ideas for potential alternatives:
+> У меня есть пара идей для альтернативного решения:
 >
-> - It's possible with CSS to do a single-line ellipsis - what if we only showed the first line?
-> - Maybe we could limit it by # of characters instead? Say, cap it to 120 characters, with an ellipsis if it's longer?
-> - Maybe we can clamp the height of the container, and make the container scrollable? So we'd still show all the text, but ensure it doesn't take up too much space on-screen.
+> - Можно сделать с помощью CSS многоточие на одной строке - что если мы будем показывать только первую строку?
+> - Может быть мы можем ограничить ее каким-то количеством символов? Например, установим максимальный предел в 120 знаков, с добавлением многоточия, если длина строки больше?
+> - Возможно мы могли бы зафиксировать высоту контейнера, и добавить в него возможность прокрутки? Таким образом мы все еще могли бы показывать весь текст, но были бы уверены, что он не занимает слишком много места на экране.
 >
-> Let me know what you think!
+> Дай мне знать, что ты об этом думаешь!
 
-The key thing here is that it shows I am taking their concerns seriously.
+Ключевой момент здесь в том, что это показывает, что я отношусь к их замечаниям всерьез.
 
-Another thing: designers usually aren't familiar enough with the web platform to be able to tell what's easy and what's hard (and they shouldn't need to be, since this is _our_ job, not theirs). Multi-line ellipsis sounds like it should be easy, but we're saying it isn't. In effect, we're asking them to trust us.
+Другой момент: дизайнеры обычно недостаточно знакомы с веб-платформой, чтобы быть в состоянии сказать, что легко и что сложно (да они и не должны, раз уж это _наша_ работа, а не их). Добавление многоточия для нескольких строк текста звучит так, как будто это легко сделать, но мы говорим, что это не так. В сущности мы просим их доверять нам.
 
-Imagine if I had said something like this:
+Представьте, если бы мне пришлось сказать что-то вроде этого:
 
-> Hi - some of your requested changes are non-trivial, so I won't be able to get to it. Sorry.
+> Привет — некоторые из запрошенных тобой изменений сложны, так что я не смогу решить их. Извини.
 
-The designer might wonder, “is this actually a hard thing, or are they making excuses because they don't want to deal with it?”. They might think we're just giving them a canned line, so that we can get back to other work that interests us more.
+Дизайнер может задаться вопросом, "действительно ли это сложная вещь, или они ищут оправдания, потому что не хотят иметь с ней дело?". Они могут подумать, что мы просто используем заготовленные фразы, чтобы заняться той работой, которая интересна нам больше.
 
-This is how trust is made or broken. Designers often work with many different developers; they can tell which developers are making an earnest effort to implement their feedback, and which ones aren't interested.
+Это то, каким образом строится или разрушается доверие. Дизайнеры часто работают со множеством разных разработчиков: они могут сказать какие разработчики предпринимают серьезные усилия, чтобы внедрить их правки, а какие в этом незаинтересованы.
 
-It's important that we establish a trusting relationship, because these are the same people we'll be talking with when we're a week from a deadline and we need to make hard choices about scope.
+Важно, чтобы мы установили доверительные взаимоотношения, потому что это те же самые люди, с которыми мы будем разговаривать за неделю до срока сдачи, когда нам надо будет принять сложное решение по проекту.
 
-Scope discussions involve a negotiation between what's best for the user and what's feasible given the current development constraints. If the designer knows that you're earnestly trying to find the best solution, they'll likely be more receptive to alternative suggestions, and much more willing to collaborate on a solution. If the designer feels like you're just trying to do the minimum possible, though, they'll likely stand firm and insist that the design is followed precisely.
+Обсуждение проекта включает переговоры по выбору между тем, что лучше для пользователя и тем, что осуществимо с учетом текущих ограничений разработки. Если дизайнер знает, что ты всерьез пытаешься найти наилучшее решение, он скорее всего будет более восприимчив к альтернативным предложениям, и гораздо более готов совместно работать над решением. Если же дизайнер чувствует, что ты просто пытаешься сделать минимум возможного, он скорее всего останется непоколебимым и настоит на точном соблюдении дизайна.
 
 
 
