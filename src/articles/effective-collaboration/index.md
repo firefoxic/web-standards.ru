@@ -144,35 +144,35 @@ preview: ''
 
 
 
-### Do I need to come up with alternatives?
+### Должен ли я предлагать алтернативу?
 
-Coming up with suitable alternatives is a skill on its own. You may find yourself in a predicament, where you recognize that the design will be very hard to implement as-specified, but you also don't have any other ideas.
+Способность выступить с подходящими альтернативными предложениями является навыком само по себе. Вы можете оказаться в затруднительной ситуации, когда вдруг осознаете, что дизайн будет очень тяжело применить в том виде, в каком он предоставлен, но в то же время у вас нет других идей.
 
-You shouldn't let that stop you from starting a conversation. I would say something like this:
+Это не должно остановить вас от начала обсуждения. Я бы сказал что-то наподобие этого:
 
-> Hi there - I saw that the design features [seemingly-simple thing]. Unfortunately, because of [technical constraint], implementing this would probably take 3-4 days of development time. I wanted to check and see how critical this element is before I invest that kind of time, and see if maybe you had alternative ideas we could try.
+> Привет — я видел, что элемент дизайна [простая на первый взгляд вещь]. К сожалению, из-за [технических ограничений], его применение вероятно займет 3–4 дня времени на разработку. Я хотел бы уточнить насколько критичен данный элемент до того, как я уделю ему столько времени, а также узнать есть ли у тебя альтернативные варианты, которые мы могли бы попробовать.
 
-The person who designed the mockup has spent a lot of time thinking about that screen, and they likely already have multiple alternative ideas. They might not even think the element in question is that important, and maybe you can omit it altogether.
+Человек, который делал макет дизайна, потратил много времени думая над этим изображением, и у него скорее всего есть несколько альтернативных идей. Возможно он даже не считает, что элемент, о котором идет речь, настолько важен, и вы можете вообще отказаться от его использования.
 
-What you _don't_ want to do is assume that everything on the design is written in stone. You might spend a week implementing a multi-line ellipsis only to learn that the work was totally unnecessary!
+Чего вам действительно _не_ стоит делать, так это считать, что все в дизайнерском макете высечено в камне. Вы можете потратить неделю внедряя многоточия для нескольких строк только для того, чтобы узнать, что данная работа была вовсе необязательна!
 
-## Covert operations
+## Тайные операции
 
-In the above hypothetical scenario, I took the liberty of taking half an hour to implement the easier parts of the designer's feedback. I didn't check with my manager, or the team lead, I just did it.
+В вышеуказанном гипотетическом сценарии я взял на себя смелость потратить полчаса на внедрение легчайших частей из комментария дизайнера. Я не сверялся со своим менеджером или тим-лидом, я просто сделал это.
 
-Depending on where you work, you may or may not have this kind of autonomy. At some organizations, it may be considered unusual for developers to take on work that wasn't explicitly assigned by a PM.
+В зависимости от того, где вы работаете, у вас может быть или не быть такой автономии. В некоторых организациях взяться за работу, которая не была явно назначена Проектным Менеджером, может считаться необычным для разработчика.
 
-If you work in an environment like this, designers probably don't have any expectation that you'll address these concerns anyway, so it's a bit of a different situation. Good communication is the most important part; you can still have that discussion around workarounds and optimal solutions, even if you're not authorized to implement the fixes yet.
+Если вы работаете в похожей обстановке, то дизайнеры вероятно даже не ожидают, что вы удовлетворите их запросы, так что это немного другая ситуация. Хорошая коммуникация это наиболее важная часть; вы все еще можете вести обсуждение обходных путей и оптимальных решений, даже если вы еще не имеете полномочий на внесение изменений в проект.
 
-I also have a little trick I really like; if I finish a task early and have some extra time to spare, I'll DM a team member and ask if they have any lingering tickets they'd like me to look at. It could be a designer, or a member of the support team, or someone in sales.
+В моем арсенале также есть небольшой трюк, который мне действительно нравится; если я заканчиваю задачу рано и у меня есть время в запасе, я отправляю сообщение товарищу по команде и спрашиваю есть ли у него затянувшиеся задания, на которые он хотел бы, чтобы я взглянул. Это может быть дизайнер, или член команды поддержки, или кто-то из отдела продаж.
 
-Often, folks in these roles will have a couple of tickets that are very important to them, and yet those tickets never seem to find their way into the active sprint. Typically, the reply I get will look like:
+Зачастую у людей на этих должностях есть парочка задач, которые для них очень важны, но все еще не были отправлены в активную стадию разработки. Ответ, который я обычно получаю, выглядит следующим образом:
 
-> OMG YES I've been trying to get this ticket solved for 3 months, it's affecting a lot of users and I don't understand why it isn't being taken more seriously. Thank you thank you thank you.
+> БОЖЕ МОЙ, ДА, я пытаюсь добиться решения этой проблемы три месяца, она влияет на множество пользователей, и я не понимаю почему к ней не относятся более серьезно. Спасибо, спасибо, спасибо.
 
-In these cases, I like to pretend that I'm on an undercover mission - I'll do things "off the record" when it comes to Jira tickets, and I won't broadcast that I'm working on it (though of course I'll still be honest if anyone asks, and I'll probably bring it up in the next standup, after the fact).
+В таких случаях я люблю представлять, что я нахожусь на секретном задании — я делаю вещи "без записи" в части заведения заданий в Jira, и я не рассказываю об этой работе (хотя конечно я отвечу честно, если кто-нибудь спросит, и я вероятно сообщу о ней на следующем собрании, постфактум).
 
-It's worth pointing out that as a cis white guy, I am privileged enough that I can get away with stuff like this without worrying about any repercussions. Unfortunately, your experience might vary, especially if you're an underrepresented minority in tech. A safer bet might be to reach out to your PM and ask for permission first, instead of forgiveness later.
+Стоит отметить, что я, как белый цисгендерный мужчина, достаточно привилегирован, чтобы осуществить это не боясь каких-либо последствий. Увы, ваш опыт может отличаться, особенно, если вы относитесь к недостаточно представленному меньшинству в технической сфере. Возможно более безопасным вариантом будет предварительно связаться со своим Проектным Менеджером и попросить разрешения, вместо того, чтобы ждать прощения по факту.
 
 ## “Should designers code?”
 
